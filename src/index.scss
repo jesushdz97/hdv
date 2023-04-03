@@ -1,0 +1,15 @@
+// Import all of Bootstrap's CSS
+@import 'bootstrap/scss/bootstrap';
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Regular.ttf');
+}
+
+body {
+  font-family: 'JetBrains Mono';
+}
+
+.bg-teal {
+  background-color: $teal;
+}
