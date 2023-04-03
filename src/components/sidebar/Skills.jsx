@@ -16,12 +16,12 @@ const data = [
 
 const Skills = () => {
   return (
-    <>
+    <div className='sticky-top' style={{top: '3rem'}}>
       <h5 className='fw-medium'>Competencias</h5>
       {data.map((el, key) => (
         <Skill key={key} name={el.name} progress={el.progress} />
       ))}
-    </>
+    </div>
   );
 };
 

@@ -10,6 +10,16 @@ body {
   font-family: 'JetBrains Mono';
 }
 
+::-webkit-scrollbar {
+  background-color: #FFF; /* color de fondo */
+  width: 12px; /* ancho de la barra */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $teal; /* color de la barra */
+  border-radius: 8px; /* borde redondeado */
+}
+
 .bg-teal {
   background-color: $teal;
 }

@@ -12,7 +12,7 @@ function AboutMe() {
         ambientes en Linux.
       </Paragraph>
       <Paragraph>
-        Actualmente desarrollo en la empresa <a href="" className='text-reset'>DevelopApp</a> en la cual implemento
+        Actualmente desarrollo en la empresa <a href="https://www.developapp.co/" className='text-reset' target='_blank'>DevelopApp</a> en la cual implemento
         módulos cuyos flujos son ricos en lógica y casos de usos de negocio.
         También cuento con conocimiento del lenguaje de Javascript, lenguaje del
         cual me gustaría especializarme. Específicamente tengo conocimientos en

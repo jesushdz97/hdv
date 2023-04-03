@@ -3,7 +3,7 @@ import React from 'react';
 const data = [
   { name: 'Github', link: 'https://github.com/eff-zero' },
   { name: 'LinkedId', link: 'https://www.linkedin.com/in/jesus-hernandez-s/' },
-  { name: 'Certica', link: 'https://app.certika.co/badges/NzUwNw==#gs.ubbz4g' },
+  { name: 'Certika', link: 'https://app.certika.co/badges/NzUwNw==#gs.ubbz4g' },
 ];
 
 function Links() {

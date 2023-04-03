@@ -29,7 +29,7 @@ const WorkExperience = () => {
 
 const Responsibilities = ({ responsibilities }) => (
   <>
-    <Paragraph className='mb-1'>Responsabilidades:</Paragraph>
+    <Paragraph>Responsabilidades:</Paragraph>
     <ul>
       {responsibilities.map((responsibility, key) => (
         <li key={key}> {responsibility} </li>
