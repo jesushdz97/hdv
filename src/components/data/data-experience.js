@@ -45,6 +45,22 @@ const workExperience = [
       'Laravel',
     ],
   },
+
+  {
+    title: 'Ingeniero de Soporte',
+    company: 'Indra',
+    city: 'Barranquilla',
+    duration: { from: 'OCT 2022', to: 'ENE 2022' },
+    description:
+      'Trabaje como ingeniero de soporte para la empresa Indra en el software de OPENSGC, software utilizado por Aire y Afinia, para el proceso de tarifas y facturación del servicio de fluido eléctrico.',
+    responsibilities: [
+      'Resolución de conflictos a nivel de bases de datos SQL.',
+      'Administración básica de servidores linux.',
+      'Ejecución de procesos PL/SQL.',
+      'Soporte básico al software de OPENSGC.',
+    ],
+    technologies: ['Oracle', 'Linux', 'Jira', 'SLQ'],
+  },
 ];
 
 export default workExperience;

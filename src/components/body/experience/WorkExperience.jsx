@@ -1,4 +1,3 @@
-import React from 'react';
 import Section from '../../Section';
 import Subsection from '../../Subsection';
 import workExperience from '../../data/data-experience';

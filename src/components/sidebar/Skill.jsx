@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Skill({ name, progress }) {
   return (
     <div className='mb-3'>

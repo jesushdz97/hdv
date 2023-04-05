@@ -1,4 +1,4 @@
-import React from 'react';
+import { GrLink } from 'react-icons/gr'
 
 const data = [
   { name: 'Github', link: 'https://github.com/eff-zero' },
@@ -8,7 +8,9 @@ const data = [
 
 function Links() {
   return (
-    <nav className='d-flex gap-1 mb-3'>
+    <nav className='d-flex gap-2 mb-3'>
+      <div><GrLink /></div>
+      
       <ul className='list-unstyled'>
         {data.map((el, key) => (
           <li key={key} className='d-inline-block me-2'>
