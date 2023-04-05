@@ -1,4 +1,5 @@
 import { GrContactInfo } from 'react-icons/gr';
+import { MdOutlineContacts } from 'react-icons/md'
 
 function Contact({ name, company, cellphone }) {
   return (

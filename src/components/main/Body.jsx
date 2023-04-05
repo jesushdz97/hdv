@@ -1,6 +1,7 @@
 import AboutMe from './AboutMe';
 import WorkExperience from './experience/WorkExperience';
 import Sidebar from '../Sidebar';
+import Educations from './education/Educations';
 
 const Body = () => {
   return (
@@ -12,6 +13,7 @@ const Body = () => {
         <div className='col-sm-12 col-md-8'>
           <AboutMe />
           <WorkExperience />
+          <Educations />
         </div>
       </div>
     </div>

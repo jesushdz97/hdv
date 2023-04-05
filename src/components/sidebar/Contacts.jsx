@@ -21,7 +21,7 @@ const contacts = [
 function Contacts() {
   return (
     <>
-      <h5 className='fw-medium'>Referencias</h5>
+      <h5 className='fw-medium mb-3'>Referencias</h5>
       {contacts.map((el, key) => (
         <Contact
           key={key}
