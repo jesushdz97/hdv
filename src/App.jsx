@@ -8,8 +8,8 @@ function App() {
     <div className='container p-4'>
       <Header />
       <Body />
-      <ButtonPDF />
-      <ModalPDF />
+      {/* <ButtonPDF />
+      <ModalPDF /> */}
     </div>
   );
 }
