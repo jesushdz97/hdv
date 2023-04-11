@@ -1,9 +1,7 @@
-import React from 'react';
 import Header from './components/header/Header';
 import Body from './components/main/Body';
 import ButtonPDF from './components/ButtonPDF';
-import PDF from './components/PDF';
-import Modal from './components/Modal';
+import ModalPDF from './components/ModalPDF';
 
 function App() {
   return (
@@ -11,10 +9,7 @@ function App() {
       <Header />
       <Body />
       <ButtonPDF />
-
-      <Modal>
-        <PDF />
-      </Modal>
+      <ModalPDF />
     </div>
   );
 }

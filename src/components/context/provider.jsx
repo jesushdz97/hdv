@@ -24,3 +24,4 @@ export const Provider = ({ children }) => {
 
 export const useModalState = () => useContext(providerContext).modalState;
 export const useDispatchModal = () => useContext(providerContext).modalDispatch;
+export const useAppContext = () => useContext(providerContext);

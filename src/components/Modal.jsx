@@ -1,13 +1,13 @@
-import { useDispatchModal, useModalState } from './context/provider';
 import types from './reducers/actions/modalActions';
-import { initialModalState } from './reducers/modalReducer';
+import { useDispatchModal, useModalState } from './context/provider';
+
+const { closeModal } = types;
 
 function Modal({ children }) {
   const modalState = useModalState();
   const dispatch = useDispatchModal();
 
   const { open, title } = modalState;
-  const { closeModal } = types;
 
   return (
     <div className={`my-modal ${open ? 'd-flex' : 'd-none'}`}>
@@ -19,9 +19,7 @@ function Modal({ children }) {
               <button
                 type='button'
                 className='btn btn-sm btn-danger'
-                onClick={() =>
-                  dispatch({ type: closeModal, payload: initialModalState })
-                }
+                onClick={() => dispatch({ type: closeModal })}
               >
                 X
               </button>

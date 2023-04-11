@@ -63,4 +63,4 @@ const workExperience = [
   },
 ];
 
-export default workExperience;
+export { workExperience };
