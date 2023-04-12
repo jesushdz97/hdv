@@ -16,7 +16,7 @@ function Header() {
           <p>+57 3057688982 - jehersi988@gmail.com</p>
         </div>
       </div>
-      <img src={photo} className='rounded zoom-img' />
+      <img src={photo} className='d-none d-md-block rounded zoom-img' />
     </header>
   );
 }
