@@ -1,21 +1,16 @@
-import types from './reducers/actions/modalActions';
 import pdfIcon from '/icons/pdf17.svg';
-import { useDispatchModal } from './context/provider';
-
-const { openModal } = types;
+import hdv from '/docs/hdv_jesus_hernandez.pdf';
 
 function ButtonPDF() {
-  const dispatch = useDispatchModal();
-
   return (
-    <button
+    <a
+      href={hdv}
       style={{ position: 'fixed', bottom: '2rem', right: '2rem' }}
       className='btn btn-lg bg-teal rounded-pill'
-      type='button'
-      onClick={() => dispatch({ type: openModal, payload: { title: 'PDF' } })}
+      download
     >
       <img src={pdfIcon} alt='' />
-    </button>
+    </a>
   );
 }
 

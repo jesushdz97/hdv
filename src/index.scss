@@ -35,3 +35,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.zoom-img {
+  width: 200px;
+  transition: transform .2s ease-in-out;
+}
+
+.zoom-img:hover {
+  transform: scale(1.1);
+}
