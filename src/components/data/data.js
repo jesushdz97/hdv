@@ -1,13 +1,13 @@
 const workExperience = [
   {
-    title: 'Backend Developer',
+    title: 'Fullstack Developer',
     company: 'DevelopApp',
     city: 'Barranquilla',
-    duration: { from: 'DIC 2022', to: 'Actual' },
+    duration: { from: 'DIC 2022', to: 'MAY 2023' },
     description:
-      'Actualmente me desempeño como backend developer implementando módulos de software donde se usa como tecnología principal y en su mayoría el framework de Laravel. Gran parte del tiempo tengo contacto con la implementación de interfaces gráficas y manejo básico del DOM vía Vainilla JavaScript.',
+      'Me desempeñé como fullstack developer implementando módulos de software donde se usa como tecnología principal y en su mayoría el framework de Laravel. Gran parte del tiempo tuve contacto con la implementación de interfaces gráficas y manejo básico del DOM vía Vainilla JavaScript.',
     responsibilities: [
-      'Implementación y desarrollo de modulos del software administrativo de Cientech.',
+      'Implementación y desarrollo de modulos del software administrativos.',
       'Mejora e implementación de bases de datos relacionales.',
       'Realización de tareas y/o requisitos por parte del cliente a nivel funcional, visual y de experiencia de usuario.',
     ],
@@ -32,7 +32,6 @@ const workExperience = [
     responsibilities: [
       'Jugué un papel clave en la transición del software local a una plataforma web.',
       'Implemantación de arquitectura y tecnología moderna para los nuevos desarrollos.',
-      'Desarrollé la conexión vía socket entre la mayoría del hardware y los desarrollos web en React y Node.js.',
     ],
     technologies: [
       'React',

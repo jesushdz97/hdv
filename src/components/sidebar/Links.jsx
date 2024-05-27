@@ -1,7 +1,7 @@
 import { GrLink } from 'react-icons/gr'
 
 const data = [
-  { name: 'Github', link: 'https://github.com/eff-zero' },
+  { name: 'Github', link: 'https://github.com/jesushdz97' },
   { name: 'LinkedId', link: 'https://www.linkedin.com/in/jesus-hernandez-s/' },
   { name: 'Certika', link: 'https://app.certika.co/badges/NzUwNw==#gs.ubbz4g' },
 ];

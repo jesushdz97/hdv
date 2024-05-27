@@ -2,8 +2,8 @@ import Contact from './Contact';
 
 const contacts = [
   {
-    name: 'Jorge Zapata',
-    company: 'Rama Judicial',
+    name: 'David Barrios',
+    company: 'SoftG.Net',
     cellphone: '3024258934',
   },
   {

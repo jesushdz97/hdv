@@ -20,16 +20,7 @@ const data = [
     description: 'Diplomado en Gestion de Proyectos TI',
     company: 'Universidad de la Costa',
     city: 'Barranquilla',
-  },
-  {
-    title: 'Bachiller',
-    from: 'FEB 2008',
-    to: 'DIC 2014',
-    city: 'Barranquilla',
-    description: '',
-    company: 'Instituto La Salle',
-    city: 'Barranquilla',
-  },
+  }
 ];
 
 function Educations() {
