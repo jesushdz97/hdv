@@ -1,4 +1,4 @@
-import photo from '/img/photo_jesus.png';
+import photo from '/img/profile-pic-square.png';
 
 function Header() {
   return (
@@ -16,7 +16,11 @@ function Header() {
           <p>+57 3057688982 - jehersi988@gmail.com</p>
         </div>
       </div>
-      <img src={photo} className='d-none d-md-block rounded zoom-img' />
+      <img
+        src={photo}
+        style={{ height: '230px', objectFit: 'cover' }}
+        className='d-none d-md-block rounded zoom-img'
+      />
     </header>
   );
 }
