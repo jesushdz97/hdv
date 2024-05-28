@@ -9,10 +9,13 @@ function AboutMe() {
         Soy un backend developer cuya experticia se encuentra en
         el framework de Laravel (PHP), manejo de bases de datos SQL, entornos y
         ambientes en Linux. */}
-        Desarrollador web fullstack. Cuya experticia se halla en la pila 
-        <span className='fw-bolder'> Angular/Laravel</span>.
-        Cuento con mas de dos años de experiencia en el mundo del desarrollo
-
+        Ingeniero de Sistemas, Desarrollador web fullstack
+        con más de dos años de experiencia, especializado en
+        tecnologías como Angular y Laravel.
+        Tengo un sólido conocimiento en infraestructura y patrones de diseño,
+        lo que me permite crear aplicaciones limpias, escalables y siguiendo
+        siempre las mejores prácticas. Mi compromiso es entregar código de alta
+        calidad y soluciones eficientes que respondan a las necesidades del proyecto.
       </Paragraph>
       <Paragraph>
         Actualmente desarrollo en la empresa{' '}
@@ -23,10 +26,9 @@ function AboutMe() {
         >
           Soft-G.Net
         </a>.
-        Actualmente desarrollo en la empresa Soft-G.Net. 
-        Empresa en la cual me desempeño como desarrollador fullstack en distintos proyectos, 
-        implementando y soportando funcionalidades de dichos softwares. 
-        Todo a nivel de API REST, en donde el frontend se encuentra hecho en Angular, 
+        Empresa en la cual me desempeño como desarrollador fullstack en distintos proyectos,
+        implementando y soportando funcionalidades de dichos softwares.
+        Todo a nivel de API REST, en donde el frontend se encuentra hecho en Angular,
         el backend en Laravel y cuyas bases de datos están soportadas con el motor de SQL Server.
       </Paragraph>
       <Paragraph>

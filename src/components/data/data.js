@@ -1,6 +1,14 @@
 const workExperience = [
   {
     title: 'Fullstack Developer',
+    company: 'Soft-G.Net',
+    duration: { from: 'MAY 2023', to: 'Actual' },
+    description: 'Actualmente',
+    responsibilities: ['', '', ''],
+    technologies: ['Laravel-7|9, Angular-2|6|13, SQL Server, IIS']
+  },
+  {
+    title: 'Fullstack Developer',
     company: 'DevelopApp',
     city: 'Barranquilla',
     duration: { from: 'DIC 2022', to: 'MAY 2023' },
@@ -15,9 +23,7 @@ const workExperience = [
       'Laravel',
       'Javascript',
       'Blade',
-      'Bootstrap',
       'MySQL',
-      'Git',
       'WSL',
     ],
   },
@@ -36,11 +42,9 @@ const workExperience = [
     technologies: [
       'React',
       'Node',
-      'Flask',
       'Bootstrap',
       'NodeRED',
       'Socket',
-      'Websocket',
       'Laravel',
     ],
   },
