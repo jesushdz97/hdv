@@ -12,9 +12,9 @@ const contacts = [
     cellphone: '3043977238',
   },
   {
-    name: 'Johan Gomez',
-    company: 'Sophos',
-    cellphone: '3015174618',
+    name: 'Neyla Peña',
+    company: 'SoftG.Net',
+    cellphone: '3016829190',
   },
 ];
 

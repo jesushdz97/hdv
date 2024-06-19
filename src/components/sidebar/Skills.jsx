@@ -8,7 +8,6 @@ const data = [
   { name: 'React', progress: '80%' },
   { name: 'SQL', progress: '80%' },
   { name: 'Linux', progress: '75%' },
-  { name: 'SQL Server', progress: '70%' }
 ];
 
 const Skills = () => {

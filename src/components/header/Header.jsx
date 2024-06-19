@@ -19,7 +19,7 @@ function Header() {
       <img
         src={photo}
         style={{ height: '235px', objectFit: 'cover' }}
-        className='d-none d-md-block rounded zoom-img'
+        className='d-none d-md-block rounded'
       />
     </header>
   );
