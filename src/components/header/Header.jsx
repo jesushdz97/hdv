@@ -1,4 +1,4 @@
-import photo from '/img/photo_jesus.png';
+import photo from '/img/profile-pic-square.png';
 
 function Header() {
   return (
@@ -8,7 +8,7 @@ function Header() {
           <h2 className='text-uppercase fw-bold'>
             Jesús Enrique Hernández Simanca
           </h2>
-          <h5>Backend Developer</h5>
+          <h5>Fullstack Developer</h5>
         </div>
 
         <div>
@@ -16,7 +16,11 @@ function Header() {
           <p>+57 3057688982 - jehersi988@gmail.com</p>
         </div>
       </div>
-      <img src={photo} className='d-none d-md-block rounded zoom-img' />
+      <img
+        src={photo}
+        style={{ height: '235px', objectFit: 'cover' }}
+        className='d-none d-md-block rounded'
+      />
     </header>
   );
 }

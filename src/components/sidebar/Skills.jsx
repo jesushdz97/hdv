@@ -1,16 +1,13 @@
 import Skill from './Skill';
 
 const data = [
-  { name: 'Backend', progress: '90%' },
-  { name: 'Laravel', progress: '90%' },
-  { name: 'Git', progress: '90%' },
-  { name: 'React', progress: '85%' },
+  { name: 'Laravel', progress: '100%' },
+  { name: 'Angular', progress: '100%' },
+  { name: '.NET', progress: '85%' },
+  { name: 'Typescript', progress: '85%' },
+  { name: 'React', progress: '75%' },
   { name: 'SQL', progress: '80%' },
   { name: 'Linux', progress: '75%' },
-  { name: 'Frontend', progress: '75%' },
-  { name: 'PHP', progress: '70%' },
-  { name: 'Javascript', progress: '80%' },
-  { name: 'Node', progress: '65%' },
 ];
 
 const Skills = () => {

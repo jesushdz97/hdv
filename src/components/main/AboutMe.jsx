@@ -5,30 +5,33 @@ function AboutMe() {
   return (
     <Section title={'Perfil Profesional'}>
       <Paragraph>
-        Ingeniero de Sistemas apasionado y enfocado en el mundo de la
-        programación. Soy un backend developer cuya experticia se encuentra en
-        el framework de Laravel (PHP), manejo de bases de datos SQL, entornos y
-        ambientes en Linux.
+        Ingeniero de Sistemas, Desarrollador web fullstack
+        con más de dos años de experiencia, especializado en
+        los frameworks de Angular y Laravel.
+        Tengo un sólido conocimiento en infraestructura y patrones de diseño,
+        lo que me permite crear aplicaciones limpias, escalables y siguiendo
+        siempre las mejores prácticas. Cuyo compromiso da el de entregar código de alta
+        calidad y soluciones eficientes que respondan a las necesidades del proyecto.
       </Paragraph>
       <Paragraph>
         Actualmente desarrollo en la empresa{' '}
         <a
-          href='https://www.developapp.co/'
+          href='https://www.linkedin.com/company/soft-g-net-sas/mycompany/'
           className='text-reset'
           target='_blank'
         >
-          DevelopApp
-        </a>{' '}
-        en la cual implemento módulos cuyos flujos son ricos en lógica y casos
-        de usos de negocio. También cuento con conocimiento del lenguaje de
-        Javascript, lenguaje del cual me gustaría especializarme.
-        Específicamente tengo conocimientos en la liberia de ReactJS y uno que
-        otro contacto con NodeJS y su mundo de librerías y dependencias.
+          Soft-G.Net
+        </a>.
+        Empresa en la cual me desempeño como desarrollador fullstack en distintos proyectos,
+        implementando y soportando funcionalidades de dichos softwares.
+        Todo a nivel de API REST, en donde el frontend se encuentra hecho en Angular,
+        el backend en Laravel o .NET y cuyas bases de datos están soportadas con el motor de SQL Server.
       </Paragraph>
       <Paragraph>
         Tengo solidez en la arquitectura MVC, lógica de programación,
-        programación funcional, programación orientada objetos y demás conceptos
-        afines. Soy una persona tolerable a la frustración, dispuesta a aprender
+        programación funcional, programación orientada objetos, patrones de diseño
+        y demás conceptos afines.
+        Soy una persona tolerable a la frustración, dispuesta a aprender
         y/o afrontar nuevos retos en mí vida profesional.
       </Paragraph>
     </Section>

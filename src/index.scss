@@ -11,13 +11,13 @@ body {
 }
 
 ::-webkit-scrollbar {
-  background-color: #fff; /* color de fondo */
-  width: 12px; /* ancho de la barra */
+  background-color: #fff;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: $teal; /* color de la barra */
-  border-radius: 8px; /* borde redondeado */
+  background-color: $teal;
+  border-radius: 8px
 }
 
 .bg-teal {

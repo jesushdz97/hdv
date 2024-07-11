@@ -8,28 +8,17 @@ const data = [
     to: 'AGO 2018',
     city: 'Barranquilla',
     description:
-      'Titulo profesional universitario en la carrera de Ingeniera de Sistemas',
+      'Titulo profesional universitario en la carrera de Ingeniera de Sistemas.',
     company: 'Universidad de la Costa',
-    city: 'Barranquilla',
   },
   {
     title: 'Diplomado',
     from: 'MAR 2022',
     to: 'MAY 2022',
     city: 'Barranquilla',
-    description: 'Diplomado en Gestion de Proyectos TI',
-    company: 'Universidad de la Costa',
-    city: 'Barranquilla',
-  },
-  {
-    title: 'Bachiller',
-    from: 'FEB 2008',
-    to: 'DIC 2014',
-    city: 'Barranquilla',
-    description: '',
-    company: 'Instituto La Salle',
-    city: 'Barranquilla',
-  },
+    description: 'Diplomado en Gestion de Proyectos TI.',
+    company: 'Universidad de la Costa'
+  }
 ];
 
 function Educations() {
