@@ -5,16 +5,12 @@ function AboutMe() {
   return (
     <Section title={'Perfil Profesional'}>
       <Paragraph>
-        {/* Ingeniero de Sistemas apasionado con enfoque en el desarrollo web.
-        Soy un backend developer cuya experticia se encuentra en
-        el framework de Laravel (PHP), manejo de bases de datos SQL, entornos y
-        ambientes en Linux. */}
         Ingeniero de Sistemas, Desarrollador web fullstack
         con más de dos años de experiencia, especializado en
-        tecnologías como Angular y Laravel.
+        los frameworks de Angular y Laravel.
         Tengo un sólido conocimiento en infraestructura y patrones de diseño,
         lo que me permite crear aplicaciones limpias, escalables y siguiendo
-        siempre las mejores prácticas. Mi compromiso es entregar código de alta
+        siempre las mejores prácticas. Cuyo compromiso da el de entregar código de alta
         calidad y soluciones eficientes que respondan a las necesidades del proyecto.
       </Paragraph>
       <Paragraph>
@@ -29,7 +25,7 @@ function AboutMe() {
         Empresa en la cual me desempeño como desarrollador fullstack en distintos proyectos,
         implementando y soportando funcionalidades de dichos softwares.
         Todo a nivel de API REST, en donde el frontend se encuentra hecho en Angular,
-        el backend en Laravel y cuyas bases de datos están soportadas con el motor de SQL Server.
+        el backend en Laravel o .NET y cuyas bases de datos están soportadas con el motor de SQL Server.
       </Paragraph>
       <Paragraph>
         Tengo solidez en la arquitectura MVC, lógica de programación,

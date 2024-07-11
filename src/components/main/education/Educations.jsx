@@ -10,7 +10,6 @@ const data = [
     description:
       'Titulo profesional universitario en la carrera de Ingeniera de Sistemas.',
     company: 'Universidad de la Costa',
-    city: 'Barranquilla',
   },
   {
     title: 'Diplomado',
@@ -18,8 +17,7 @@ const data = [
     to: 'MAY 2022',
     city: 'Barranquilla',
     description: 'Diplomado en Gestion de Proyectos TI.',
-    company: 'Universidad de la Costa',
-    city: 'Barranquilla',
+    company: 'Universidad de la Costa'
   }
 ];
 

@@ -4,9 +4,16 @@ const workExperience = [
     company: 'Soft-G.Net',
     city: 'Barranquilla',
     duration: { from: 'MAY 2023', to: 'Actual' },
-    description: 'Me desempeño como desarrollador web full stack dando soporte e implementando nuevas características a diferentes proyectos de la compañía. Todo esto basado en API REST, MVC, repository pattern y demás. Las tecnologías principales son Laravel en el backend y Angular en el frontend. También he desplegado servidores en ISS y realizado uno que otro proyecto en React y un poco de Express con TypeScript.',
-    responsibilities: ['Control de calidad, reivisión de escalabilidad del código y aprobacion de PRs.', 'Depuración y/o refactorización de codigo conflictivo o poco escalable.', 'Realización de tareas y/o requisitos por parte del cliente a nivel funcional, visual y de experiencia de usuario.'],
-    technologies: ['Laravel@7,9, Angular@2,6,13, Express@4, React@18, SQL Server, IIS']
+    description: 'Me desempeño actualmente como desarrollador web full stack dando soporte e implementando nuevas características a diferentes proyectos de la compañía. Todo esto basado en API REST, MVC, repository pattern y demás. Las tecnologías principales son Laravel o .NET en el backend y Angular en el frontend. También he desplegado servidores en ISS y realizado uno que otro proyecto en React, un poco de Express con TypeScript y .NET Core 8.',
+    responsibilities: ['Control de calidad, revisión de escalabilidad del código y aprobacion de PRs.', 'Depuración y/o refactorización de codigo conflictivo o poco escalable.', 'Realización de tareas y/o requisitos por parte del cliente a nivel funcional, visual y de experiencia de usuario.'],
+    technologies: [
+      'Laravel@5-9',
+      '.NET@8',
+      'Angular@2-6-13',
+      'Express@4',
+      'React@18',
+      'SQL Server'
+    ]
   },
   {
     title: 'Fullstack Developer',
@@ -35,7 +42,7 @@ const workExperience = [
     city: 'Barranquilla',
     duration: { from: 'FEB 2022', to: 'AGO 2022' },
     description:
-      'Pastas Comarrico es una prestigiosa empresa de alimentos. Mi labor principal fue aportar en la transición tecnológica y digital de la empresa, implementando software a medida, con tecnología y arquitectura moderna.',
+      'Mi labor principal fue aportar en la transición tecnológica y digital de la empresa, implementando software a medida, con tecnología y arquitectura moderna.',
     responsibilities: [
       'Jugué un papel clave en la transición del software local a una plataforma web.',
       'Implemantación de arquitectura y tecnología moderna para los nuevos desarrollos.',
