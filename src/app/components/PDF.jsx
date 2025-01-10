@@ -9,9 +9,9 @@ import {
   Font,
 } from '@react-pdf/renderer';
 import { useEffect } from 'react';
-import { useModalState } from './context/provider';
-import { useDispatchModal } from './context/provider';
-import types from './reducers/actions/modalActions';
+import { useModalState } from '../context/provider';
+import { useDispatchModal } from '../context/provider';
+import types from '../reducers/actions/modalActions';
 
 /** Variables */
 const $teal = '#20c997';

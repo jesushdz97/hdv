@@ -1,11 +1,11 @@
-import Section from '@/components/Section';
-import Subsection from '@/components/Subsection';
+import Section from '@/app/components/Section';
+import Subsection from '@/app/components/Subsection';
 
 const data = [
   {
     title: 'Pregado',
     from: 'AGO 2018',
-    to: 'AGO 2018',
+    to: 'JUN 2022',
     city: 'Barranquilla',
     description:
       'Titulo profesional universitario en la carrera de Ingeniera de Sistemas.',

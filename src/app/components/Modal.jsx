@@ -1,5 +1,5 @@
-import types from './reducers/actions/modalActions';
-import { useDispatchModal, useModalState } from './context/provider';
+import types from '../reducers/actions/modalActions';
+import { useDispatchModal, useModalState } from '../context/provider';
 
 const { closeModal } = types;
 
