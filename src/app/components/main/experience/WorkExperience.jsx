@@ -1,7 +1,7 @@
-import Section from '@/components/Section';
-import Subsection from '@/components/Subsection';
-import Paragraph from '@/components/Paragraph';
-import { workExperience } from '@/components/data/data';
+import Section from '@/app/components/Section';
+import Subsection from '@/app/components/Subsection';
+import Paragraph from '@/app/components/Paragraph';
+import { workExperience } from '@/app/data/data';
 
 const WorkExperience = () => {
   return (
