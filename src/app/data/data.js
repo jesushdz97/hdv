@@ -60,7 +60,7 @@ const workExperience = [
     title: 'Ingeniero de Soporte',
     company: 'Indra',
     city: 'Barranquilla',
-    duration: { from: 'OCT 2022', to: 'ENE 2022' },
+    duration: { from: 'OCT 2021', to: 'ENE 2022' },
     description:
       'Trabaje como ingeniero de soporte para la empresa Indra en el software de OPENSGC, software utilizado por Aire y Afinia, para el proceso de tarifas y facturación del servicio de fluido eléctrico.',
     responsibilities: [
