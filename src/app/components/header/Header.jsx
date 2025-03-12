@@ -8,7 +8,7 @@ function Header() {
           <h2 className='text-uppercase fw-bold'>
             Jesús Enrique Hernández Simanca
           </h2>
-          <h5>Ingeniero de Sistema, Desarrollador</h5>
+          <h5>Ingeniero de Sistema, Desarrollador Web</h5>
         </div>
 
         <div>

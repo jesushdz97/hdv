@@ -3,12 +3,12 @@ import Contact from './Contact';
 const contacts = [
   {
     name: 'David Barrios',
-    company: 'SoftG.Net',
+    company: 'Everest',
     cellphone: '3024258934',
   },
   {
     name: 'Andres Vasquez',
-    company: 'Solution',
+    company: '360 PMI',
     cellphone: '3043977238',
   },
   {
