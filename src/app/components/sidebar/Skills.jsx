@@ -7,6 +7,7 @@ const data = [
   { name: 'SQL SERVER', progress: '90%' },
   { name: 'Linux', progress: '85%' },
   { name: 'IIS', progress: '90%' },
+  { name: 'Arquitectura SO', progress: '85%' },
 ];
 
 const Skills = () => {
