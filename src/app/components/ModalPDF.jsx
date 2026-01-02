@@ -3,7 +3,7 @@ import PDF from './PDF';
 
 const ModalPDF = () => {
   return (
-    <Modal>
+    <Modal width='24rem'>
       <PDF />
     </Modal>
   );

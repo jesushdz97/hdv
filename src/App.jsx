@@ -9,6 +9,7 @@ function App() {
       <Header />
       <Body />
       <ButtonPDF />
+      <ModalPDF />
     </div>
   );
 }

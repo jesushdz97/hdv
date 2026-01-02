@@ -3,9 +3,9 @@ import types from './actions/modalActions';
 const initialModalState = { open: false, title: '' };
 
 const modalReducer = (_, action) => {
-  const { payload } = action;
+  const { type, payload } = action;
 
-  switch (action.type) {
+  switch (type) {
     case types.closeModal:
       return initialModalState;
 

@@ -3,7 +3,7 @@ import { useDispatchModal, useModalState } from '../context/provider';
 
 const { closeModal } = types;
 
-function Modal({ children }) {
+function Modal({ width='16rem', children }) {
   const modalState = useModalState();
   const dispatch = useDispatchModal();
 
@@ -11,11 +11,11 @@ function Modal({ children }) {
 
   return (
     <div className={`my-modal ${open ? 'd-flex' : 'd-none'}`}>
-      <div className='container'>
+      <div className='container' style={{ width }}>
         <div className='card'>
           <div className='card-header'>
             <div className='d-flex flex-row align-items-center justify-content-between'>
-              <h4 className='text-center fw-bold my-3'>{title}</h4>
+              <h5 className='text-center fw-bold my-3'>{title}</h5>
               <button
                 type='button'
                 className='btn btn-sm btn-danger'
@@ -25,7 +25,7 @@ function Modal({ children }) {
               </button>
             </div>
           </div>
-          <div className='card-body' style={{ height: '80vh' }}>
+          <div className='card-body'>
             {children}
           </div>
         </div>
