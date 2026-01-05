@@ -1,5 +1,5 @@
-import Section from '@/app/components/Section';
-import Subsection from '@/app/components/Subsection';
+import Section from '@/app/components/shared/Section';
+import Subsection from '@/app/components/shared/Subsection';
 
 const data = [
   {

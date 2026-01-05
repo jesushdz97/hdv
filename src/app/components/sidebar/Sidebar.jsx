@@ -1,7 +1,7 @@
-import Contacts from './sidebar/Contacts';
-import Languages from './sidebar/Languages';
-import Links from './sidebar/Links';
-import Skills from './sidebar/Skills';
+import Contacts from './Contacts';
+import Languages from './Languages';
+import Links from './Links';
+import Skills from './Skills';
 
 function Sidebar() {
   return (

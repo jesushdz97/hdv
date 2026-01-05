@@ -1,6 +1,7 @@
-import { useReducer, createContext } from 'react';
+import { useReducer, createContext, useState } from 'react';
 import { modalReducer, initialModalState } from '../reducers/modalReducer';
 import { useContext } from 'react';
+import languageEnum from '../reducers/actions/languageActions';
 
 export const providerContext = createContext();
 
@@ -10,9 +11,13 @@ export const Provider = ({ children }) => {
     initialModalState,
   );
 
+  const [languageState, setLanguageState] = useState(languageEnum.spanish);
+
   const value = {
     modalState,
     modalDispatch,
+    languageState,
+    setLanguageState
   };
 
   return (
@@ -22,6 +27,8 @@ export const Provider = ({ children }) => {
   );
 };
 
+export const useAppContext = () => useContext(providerContext);
 export const useModalState = () => useContext(providerContext).modalState;
 export const useDispatchModal = () => useContext(providerContext).modalDispatch;
-export const useAppContext = () => useContext(providerContext);
+export const useLanguageState = () => useContext(providerContext).languageState;
+export const useSetLanguageState = () => useContext(providerContext).setLanguageState;

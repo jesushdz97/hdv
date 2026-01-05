@@ -1,6 +1,6 @@
 import pdfIcon from '/icons/pdf17.svg';
-import { useDispatchModal } from '../context/provider';
-import types from '../reducers/actions/modalActions';
+import { useDispatchModal } from '../../context/provider';
+import types from '../../reducers/actions/modalActions';
 
 const OPEN_MODAL = types.openModal;
 const PAYLOAD = { title: 'Elegir idioma' };

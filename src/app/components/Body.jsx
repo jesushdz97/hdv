@@ -1,7 +1,7 @@
 import AboutMe from './AboutMe';
-import WorkExperience from './experience/WorkExperience';
-import Sidebar from '../Sidebar';
-import Educations from './education/Educations';
+import WorkExperience from './main/experience/WorkExperience'
+import Sidebar from './sidebar/Sidebar';
+import Educations from './main/education/Educations';
 
 const Body = () => {
   return (

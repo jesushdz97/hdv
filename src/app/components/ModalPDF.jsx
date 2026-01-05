@@ -1,5 +1,5 @@
-import Modal from './Modal';
-import PDF from './PDF';
+import Modal from './shared/Modal';
+import PDF from './shared/PDF';
 
 const ModalPDF = () => {
   return (

@@ -1,6 +1,6 @@
-import Header from './app/components/header/Header';
-import Body from './app/components/main/Body';
-import ButtonPDF from './app/components/ButtonPDF';
+import Header from './app/components/Header';
+import Body from './app/components/Body';
+import ButtonPDF from './app/components/shared/ButtonPDF';
 import ModalPDF from './app/components/ModalPDF';
 
 function App() {

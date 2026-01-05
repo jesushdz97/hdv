@@ -1,6 +1,6 @@
 import React from 'react';
-import Title from '../../Title';
-import Section from '../../Section';
+import Title from '../../shared/Title';
+import Section from '../../shared/Section';
 
 function Experience() {
   return <p>hola</p>;
