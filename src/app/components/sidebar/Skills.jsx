@@ -1,5 +1,5 @@
-import useLanguageHook from '@/app/hooks/useLanguageHook';
 import Skill from './Skill';
+import { useIsSpanishState } from '@/app/context/provider';
 
 const data = [
   { name: 'Laravel', progress: '95%' },
@@ -12,7 +12,7 @@ const data = [
 ];
 
 const Skills = () => {
-  const { isSpanish } = useLanguageHook();
+  const isSpanish = useIsSpanishState();
 
   return (
     <div className='mb-5'>

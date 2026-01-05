@@ -3,7 +3,8 @@
  * Do not modify this file directly.
  */
 
-export * from './ButtonPDF'
+export * from './ButtonLanguague'
+export * from './ButtonPdf'
 export * from './Modal'
 export * from './PDF'
 export * from './Paragraph'

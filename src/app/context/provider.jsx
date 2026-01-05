@@ -11,13 +11,13 @@ export const Provider = ({ children }) => {
     initialModalState,
   );
 
-  const [languageState, setLanguageState] = useState(languageEnum.spanish);
+  const [isSpanishState, setIsSpanish] = useState(true);
 
   const value = {
     modalState,
     modalDispatch,
-    languageState,
-    setLanguageState
+    isSpanishState,
+    setIsSpanish
   };
 
   return (
@@ -30,5 +30,5 @@ export const Provider = ({ children }) => {
 export const useAppContext = () => useContext(providerContext);
 export const useModalState = () => useContext(providerContext).modalState;
 export const useDispatchModal = () => useContext(providerContext).modalDispatch;
-export const useLanguageState = () => useContext(providerContext).languageState;
-export const useSetLanguageState = () => useContext(providerContext).setLanguageState;
+export const useIsSpanishState = () => useContext(providerContext).isSpanishState;
+export const useSetIsSpanish = () => useContext(providerContext).setIsSpanish;

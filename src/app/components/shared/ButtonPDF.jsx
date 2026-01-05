@@ -5,7 +5,7 @@ import types from '../../reducers/actions/modalActions';
 const OPEN_MODAL = types.openModal;
 const PAYLOAD = { title: 'Elegir idioma' };
 
-function ButtonPDF() {
+function ButtonPdf() {
   const dispatch = useDispatchModal();
   const openModal = () => dispatch({ type: OPEN_MODAL, payload: PAYLOAD })
 
@@ -20,4 +20,4 @@ function ButtonPDF() {
   );
 }
 
-export default ButtonPDF;
+export default ButtonPdf;
